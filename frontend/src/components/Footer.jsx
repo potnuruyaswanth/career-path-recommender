@@ -2,19 +2,11 @@ import React from 'react'
 
 const DEVELOPERS = [
   {
-    name: 'Muni Rangadu',
-    title: 'Full-Stack Developer',
-    roles: ['Project Lead & Architect', 'Backend Specialist', 'Database & API Expert'],
-    email: 'kuruvamunirangadu.2005@gmail.com',
-    phone: '+91 8639019597',
-    icon: '👨‍💼'
-  },
-  {
-    name: 'Reddi Sekhar',
-    title: 'Full-Stack Developer',
-    roles: ['Frontend Specialist', 'Next.js & TypeScript Expert'],
-    email: 'reddisekharmarugani@gmail.com',
-    phone: '+91 9346414887',
+    name: 'Potnuru Yaswanth',
+    title: 'Backend Developer',
+    roles: ['Node.js', 'Express.js', 'MongoDB'],
+    email: 'potnuruyaswanthp@gmail.com',
+    phone: '+91 9177692201',
     icon: '👨‍💻'
   }
 ]
@@ -38,7 +30,7 @@ export default function Footer() {
             <li><a href="/">Home</a></li>
             <li><a href="/onboarding">Onboarding</a></li>
             <li><a href="/explore">Explore</a></li>
-            <li><a href="https://github.com/kuruvamunirangadu/Career-path-Navigator" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://github.com/potnuruyaswanth/career-path-recommender" target="_blank" rel="noopener noreferrer">GitHub</a></li>
           </ul>
         </div>
 
@@ -46,9 +38,9 @@ export default function Footer() {
         <div className="footer-column">
           <h3 className="footer-heading">Get Support</h3>
           <ul className="footer-links">
-            <li>📧 <a href="mailto:kuruvamunirangadu.2005@gmail.com">Email Support</a></li>
-            <li>💬 <a href="https://wa.me/918639019597" target="_blank" rel="noopener noreferrer">WhatsApp Support</a></li>
-            <li>🐙 <a href="https://github.com/kuruvamunirangadu/Career-path-Navigator/issues" target="_blank" rel="noopener noreferrer">Report Issues</a></li>
+            <li>📧 <a href="mailto:potnuruyaswanthp@gmail.com">Email Support</a></li>
+            <li>💬 <a href="https://wa.me/919177692201" target="_blank" rel="noopener noreferrer">WhatsApp Support</a></li>
+            <li>🐙 <a href="https://github.com/potnuruyaswanth/career-path-recommender/issues" target="_blank" rel="noopener noreferrer">Report Issues</a></li>
           </ul>
         </div>
 
@@ -56,7 +48,7 @@ export default function Footer() {
         <div className="footer-column">
           <h3 className="footer-heading">Contact Developers</h3>
           <p className="footer-text">
-            Connect with our development team for technical support and feature requests.
+            Connect with the developer for technical support and feature requests.
           </p>
         </div>
       </div>
@@ -95,7 +87,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <p className="copyright">© 2026 Career Navigator. All rights reserved.</p>
         <p className="footer-credit">
-          Proudly developed by <strong>Muni Rangadu</strong> & <strong>Reddi Sekhar</strong>
+          Proudly developed by <strong>Potnuru Yaswanth</strong>
         </p>
       </div>
     </footer>
