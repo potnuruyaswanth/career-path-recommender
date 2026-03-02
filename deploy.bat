@@ -39,7 +39,7 @@ echo Monitor deployment at:
 echo https://vercel.com/dashboard
 echo.
 echo Your site will be live at:
-echo https://career-path-navigator-sobk.vercel.app
+echo https://career-pathrecommender.vercel.app
 echo.
 echo Wait 2-3 minutes then test the site.
 echo.

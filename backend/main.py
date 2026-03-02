@@ -23,11 +23,11 @@ def _norm_id(prefix: str, value: str) -> str:
 # CORS origins - Production (Vercel) + Local development (commented for production)
 origins = [
     # Production domains (Vercel)
-    "https://career-path-navigator-sobk.vercel.app",
-    "https://www.career-path-navigator-sobk.vercel.app",
+    "https://career-pathrecommender.vercel.app",
+    "https://www.career-pathrecommender.vercel.app",
     
     # Production Render backend (self-reference for direct API calls)
-    "https://career-navigator-backend-7el6.onrender.com",
+    "https://career-path-recommender-hn69.onrender.com",
 
     # Local development
     "http://localhost",

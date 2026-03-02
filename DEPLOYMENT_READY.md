@@ -16,8 +16,8 @@
 ## 🎯 Deployment - Live on Render & Vercel
 
 ### ✅ Already Deployed (Auto-Deploy Active)
-**Frontend:** https://career-path-navigator-sobk.vercel.app  
-**Backend:** https://career-navigator-backend-7el6.onrender.com
+**Frontend:** https://career-pathrecommender.vercel.app  
+**Backend:** https://career-path-recommender-hn69.onrender.com
 
 ### 🔄 How Auto-Deploy Works
 
@@ -41,11 +41,11 @@
 │  GitHub Repo (main branch)                              │
 │  └─> push to main                                       │
 │      ├─> Vercel Auto-Deploy (Frontend)                 │
-│      │   └─> https://career-path-navigator-sobk.       │
-│      │       vercel.app                                 │
+│      │   └─> https://career-pathrecommender.vercel.   │
+│      │       app                                          │
 │      │                                                   │
 │      └─> Render Auto-Deploy (Backend)                  │
-│          └─> https://career-navigator-backend-7el6.    │
+│          └─> https://career-path-recommender-hn69.    │
 │              onrender.com                               │
 │                                                          │
 │  ┌─────────────────────────────────────────────────┐  │
@@ -118,8 +118,8 @@
 ### ✓ Verify Deployment
 - [ ] Check Vercel dashboard for frontend status
 - [ ] Check Render dashboard for backend status
-- [ ] Test live backend: https://career-navigator-backend-7el6.onrender.com/streams?class=10
-- [ ] Test live frontend: https://career-path-navigator-sobk.vercel.app
+- [ ] Test live backend: https://career-path-recommender-hn69.onrender.com/streams?class=10
+- [ ] Test live frontend: https://career-pathrecommender.vercel.app
 - [ ] Try chatbot feature: "How to become architect?"
 
 ---
@@ -130,7 +130,7 @@
 
 **Frontend API Connection** (`frontend/src/services/api.js`):
 ```javascript
-const API_BASE_URL = 'https://career-navigator-backend-7el6.onrender.com';
+const API_BASE_URL = 'https://career-path-recommender-hn69.onrender.com';
 ```
 
 **Backend CORS** (`backend/main.py`):

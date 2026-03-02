@@ -35,18 +35,18 @@ After you `git push`, both services auto-deploy within 2-5 minutes:
 
 | Service | Platform | Deploy Time | Status URL |
 |---------|----------|-------------|------------|
-| Frontend | Vercel | 1-2 min | https://career-path-navigator-sobk.vercel.app |
-| Backend | Render | 2-3 min | https://career-navigator-backend-7el6.onrender.com/docs |
+| Frontend | Vercel | 1-2 min | https://career-pathrecommender.vercel.app |
+| Backend | Render | 2-3 min | https://career-path-recommender-hn69.onrender.com/docs |
 
 ---
 
 ## Verify Deployment
 
 ### Frontend Live
-Open: https://career-path-navigator-sobk.vercel.app
+Open: https://career-pathrecommender.vercel.app
 
 ### Backend Live
-Open: https://career-navigator-backend-7el6.onrender.com/docs
+Open: https://career-path-recommender-hn69.onrender.com/docs
 
 ---
 
@@ -72,8 +72,8 @@ git push origin main
 # 7. Wait 2-5 minutes for deployment
 
 # 8. Verify live
-# Frontend: https://career-path-navigator-sobk.vercel.app
-# Backend: https://career-navigator-backend-7el6.onrender.com
+# Frontend: https://career-pathrecommender.vercel.app
+# Backend: https://career-path-recommender-hn69.onrender.com
 ```
 
 ---

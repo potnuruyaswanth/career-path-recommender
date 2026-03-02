@@ -4,9 +4,9 @@
 
 **Use these URLs for production access:**
 
-- **Frontend:** https://career-path-navigator-sobk.vercel.app
-- **Backend API:** https://career-navigator-backend-7el6.onrender.com
-- **API Docs:** https://career-navigator-backend-7el6.onrender.com/docs
+- **Frontend:** https://career-pathrecommender.vercel.app
+- **Backend API:** https://career-path-recommender-hn69.onrender.com
+- **API Docs:** https://career-path-recommender-hn69.onrender.com/docs
 
 **Status:** ✅ Live and auto-deploying on every `git push origin main`
 
@@ -29,7 +29,7 @@ Both services automatically deploy on every push to `main` branch:
   "buildCommand": "cd frontend && npm install && npm run build",
   "outputDirectory": "frontend/dist",
   "env": {
-    "VITE_API_BASE": "https://career-navigator-backend-7el6.onrender.com"
+    "VITE_API_BASE": "https://career-path-recommender-hn69.onrender.com"
   }
 }
 ```
@@ -101,8 +101,8 @@ This skips the local backend and points Vite to the deployed Render API.
    - Render: ~5-8 minutes (free tier)
 
 3. **Verify:**
-   - Frontend: https://career-path-navigator-sobk.vercel.app
-   - Backend API: https://career-navigator-backend-7el6.onrender.com/docs
+   - Frontend: https://career-pathrecommender.vercel.app
+   - Backend API: https://career-path-recommender-hn69.onrender.com/docs
 
 ## Dashboard Links
 

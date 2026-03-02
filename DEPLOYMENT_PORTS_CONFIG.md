@@ -3,14 +3,14 @@
 ## ✅ Current Deployment Setup
 
 ### Frontend (Vercel)
-- **URL**: https://career-path-navigator-sobk.vercel.app
-- **API Base**: `https://career-navigator-backend-7el6.onrender.com`
+- **URL**: https://career-pathrecommender.vercel.app
+- **API Base**: `https://career-path-recommender-hn69.onrender.com`
 - **Environment File**: `.env.production` (Vercel uses this automatically)
 - **Build Command**: `cd frontend && npm install && npm run build`
 - **Output**: `frontend/dist`
 
 ### Backend (Render)
-- **URL**: https://career-navigator-backend-7el6.onrender.com
+- **URL**: https://career-path-recommender-hn69.onrender.com
 - **Port**: 8000
 - **Start Command**: `cd backend && uvicorn main:app --host 0.0.0.0 --port 8000`
 - **CORS Enabled**: ✅ Yes (Vercel domain configured)
@@ -28,7 +28,7 @@ VITE_API_BASE=http://127.0.0.1:8000
 ### Production (Vercel)
 ```bash
 # frontend/.env.production
-VITE_API_BASE=https://career-navigator-backend-7el6.onrender.com
+VITE_API_BASE=https://career-path-recommender-hn69.onrender.com
 ```
 
 ---
@@ -37,8 +37,8 @@ VITE_API_BASE=https://career-navigator-backend-7el6.onrender.com
 
 | Service | Local | Production |
 |---------|-------|------------|
-| Backend | http://127.0.0.1:8000 | https://career-navigator-backend-7el6.onrender.com |
-| Frontend | http://localhost:5173 | https://career-path-navigator-sobk.vercel.app |
+| Backend | http://127.0.0.1:8000 | https://career-path-recommender-hn69.onrender.com |
+| Frontend | http://localhost:5173 | https://career-pathrecommender.vercel.app |
 
 ---
 
@@ -61,7 +61,7 @@ VITE_API_BASE=https://career-navigator-backend-7el6.onrender.com
 ## ✨ How It Works
 
 1. **Development**: Uses `http://127.0.0.1:8000` (local backend)
-2. **Production**: Uses `https://career-navigator-backend-7el6.onrender.com` (Render API)
+2. **Production**: Uses `https://career-path-recommender-hn69.onrender.com` (Render API)
 3. **Auto-Detection**: Frontend code reads `VITE_API_BASE` environment variable
 4. **CORS**: Backend accepts requests from both local and production frontends
 
@@ -71,7 +71,7 @@ VITE_API_BASE=https://career-navigator-backend-7el6.onrender.com
 
 The backend's `main.py` allows requests from:
 - ✅ Local development (localhost:5173, etc.)
-- ✅ Production Vercel (https://career-path-navigator-sobk.vercel.app)
+- ✅ Production Vercel (https://career-pathrecommender.vercel.app)
 - ✅ All standard HTTP methods (GET, POST, OPTIONS)
 
 ---

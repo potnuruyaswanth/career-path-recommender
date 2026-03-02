@@ -64,8 +64,8 @@ cd frontend && npm run preview
 - **API Docs:** http://localhost:8000/docs
 
 ### Production (Deployed)
-- **Frontend:** https://career-path-navigator-sobk.vercel.app
-- **Backend API:** https://career-navigator-backend-7el6.onrender.com
+- **Frontend:** https://career-pathrecommender.vercel.app
+- **Backend API:** https://career-path-recommender-hn69.onrender.com
 
 ---
 
@@ -299,7 +299,7 @@ carrer/
 
 ### Vercel Settings
 ```
-VITE_API_BASE = https://career-navigator-backend-7el6.onrender.com
+VITE_API_BASE = https://career-path-recommender-hn69.onrender.com
 ```
 
 ### Local Development
@@ -314,7 +314,7 @@ Auto-detected from hostname:
 
 1. **Use Vercel Preview URLs** for testing before merging
 2. **Check build logs** in Vercel dashboard if deployment fails
-3. **Monitor backend health** at https://career-navigator-backend-7el6.onrender.com/docs
+3. **Monitor backend health** at https://career-path-recommender-hn69.onrender.com/docs
 4. **Use React DevTools** to inspect component state
 5. **Check Network tab** to debug API calls
 6. **Test on mobile** using Chrome Device Emulation (F12 → ⌘+Shift+M)

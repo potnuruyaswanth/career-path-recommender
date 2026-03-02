@@ -10,7 +10,7 @@
 
 export const getApiBase = () => {
   // Render backend URL
-  const renderBackendUrl = 'https://career-navigator-backend-7el6.onrender.com'
+  const renderBackendUrl = 'https://career-path-recommender-hn69.onrender.com'
   const localBackendUrl = 'http://localhost:8000'
 
   // 1) Check for environment variable override (Vercel)

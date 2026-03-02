@@ -47,8 +47,8 @@ if not "%SKIP_BACKEND%"=="1" (
 echo.
 echo ===== QUICK LINKS =====
 echo Click to open:
-echo - Frontend (deployed): https://career-path-navigator-sobk.vercel.app
-echo - Backend API (deployed): https://career-navigator-backend-7el6.onrender.com
+echo - Frontend (deployed): https://career-pathrecommender.vercel.app
+echo - Backend API (deployed): https://career-path-recommender-hn69.onrender.com
 echo - Frontend (local): http://localhost:5173/
 echo - Backend (local): http://127.0.0.1:8000
 echo - API Docs (local): http://127.0.0.1:8000/docs

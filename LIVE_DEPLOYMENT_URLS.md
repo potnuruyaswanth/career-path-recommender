@@ -11,7 +11,7 @@
 
 ### **Frontend (Vercel)**
 ```
-https://career-path-navigator-sobk.vercel.app
+https://career-pathrecommender.vercel.app
 ```
 **Features**:
 - React + Vite
@@ -20,7 +20,7 @@ https://career-path-navigator-sobk.vercel.app
 
 ### **Backend API (Render)**
 ```
-https://career-navigator-backend-7el6.onrender.com
+https://career-path-recommender-hn69.onrender.com
 ```
 **Features**:
 - Python FastAPI
@@ -32,13 +32,13 @@ https://career-navigator-backend-7el6.onrender.com
 ## 🧪 Test URLs
 
 ### **Frontend Tests**
-- **Home Page**: https://career-path-navigator-sobk.vercel.app
-- **App**: https://career-path-navigator-sobk.vercel.app/
+- **Home Page**: https://career-pathrecommender.vercel.app
+- **App**: https://career-pathrecommender.vercel.app/
 
 ### **Backend API Tests**
-- **Streams**: https://career-navigator-backend-7el6.onrender.com/streams?class=10
-- **API Docs**: https://career-navigator-backend-7el6.onrender.com/docs
-- **Health**: https://career-navigator-backend-7el6.onrender.com/health
+- **Streams**: https://career-path-recommender-hn69.onrender.com/streams?class=10
+- **API Docs**: https://career-path-recommender-hn69.onrender.com/docs
+- **Health**: https://career-path-recommender-hn69.onrender.com/health
 
 ---
 
@@ -55,8 +55,8 @@ https://career-navigator-backend-7el6.onrender.com
 
 | Service | Platform | URL | Status |
 |---------|----------|-----|--------|
-| Frontend | Vercel | career-path-navigator-sobk.vercel.app | ✅ Live |
-| Backend | Render | career-navigator-backend-7el6.onrender.com | ✅ Live |
+| Frontend | Vercel | career-pathrecommender.vercel.app | ✅ Live |
+| Backend | Render | career-path-recommender-hn69.onrender.com | ✅ Live |
 
 ---
 
