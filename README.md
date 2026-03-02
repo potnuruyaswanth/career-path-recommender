@@ -10,7 +10,7 @@
 [![Backend](https://img.shields.io/badge/API-live-blue)](https://career-navigator-backend-7el6.onrender.com/docs)
 [![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
-**[Live App](https://career-path-navigator-sobk.vercel.app)** • **[API Docs](https://career-navigator-backend-7el6.onrender.com/docs)** • **[GitHub](https://github.com/kuruvamunirangadu/Career-path-Navigator)**
+**[Live App](https://career-path-navigator-sobk.vercel.app)** • **[API Docs](https://career-navigator-backend-7el6.onrender.com/docs)** • **[GitHub](https://github.com/potnuruyaswanth/career-path-recommender)**
 
 </div>
 
